@@ -26,6 +26,11 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
+<?php 
+    // Form submission script 
+    include_once 'submit.php'; 
+?>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
@@ -621,7 +626,7 @@
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div>
-                                    <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send Message</button>
+                                    <button class="btn btn-outline-primary" name="submit" type="submit" id="sendMessageButton">Send Message</button>
                                 </div>
                             </form>
                         </div>
@@ -630,6 +635,8 @@
             </form>
         </div>
     </div>
+
+
     <!-- Contact End -->
 
 
