@@ -1,0 +1,45 @@
+/* Center the badge container */
+.custom-badge {
+    width: 280px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+    font-family: Arial, sans-serif;
+}
+
+/* Badge Image */
+.custom-badge img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Badge Title */
+.custom-badge h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Issuer (Italic) */
+.custom-badge .issuer {
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+}
+
+/* Provided by */
+.custom-badge .provided-by {
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+.custom-badge:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
