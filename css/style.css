@@ -9740,7 +9740,8 @@ h6,
 
 .text-stroke-header {
   -webkit-text-stroke: 3px #ffffff;
-  color: solid;
+  color: transparent;
+  stroke-linejoin: round;
 }
 
 .btn {
