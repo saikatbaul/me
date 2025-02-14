@@ -1,44 +1,64 @@
-/* Badge Container */
-.credly-badge {
-    width: 280px;
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.certificate-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    padding: 15px;
-    transition: transform 0.3s ease-in-out;
 }
 
-/* Badge Hover Effect */
-.credly-badge:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-/* Badge Image */
-.credly-badge img {
-    width: 100px;
-    height: 100px;
-    object-fit: contain;
+.logo {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #00adef;
+    border-radius: 50%;
     margin-bottom: 10px;
 }
 
-/* Badge Title */
-.credly-badge h3 {
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.circle-content {
+    text-align: center;
+}
+
+.circle-content h2 {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.circle-content p {
     font-size: 16px;
     font-weight: bold;
     margin: 5px 0;
 }
 
-/* Issuer */
-.credly-badge .issuer {
-    font-size: 14px;
-    color: #555;
+.star {
+    font-size: 24px;
+    color: gold;
 }
 
-/* Provided By */
-.credly-badge .provided-by {
-    font-size: 12px;
-    color: #777;
-    margin-top: 5px;
+.issuer {
+    margin-top: 20px;
+    font-style: italic;
 }
