@@ -9742,6 +9742,11 @@ h6,
   -webkit-text-stroke: 3px #ffffff;
   color: transparent;
   stroke-linejoin: round;
+  text-shadow: 
+    1px 1px 0 #ffffff,  
+    -1px -1px 0 #ffffff,  
+    1px -1px 0 #ffffff,  
+    -1px 1px 0 #ffffff;
 }
 
 .btn {
